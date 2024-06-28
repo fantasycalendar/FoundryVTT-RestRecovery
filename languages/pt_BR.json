@@ -121,7 +121,8 @@
       "Flavor": {
         "ShortRestNormal": "Descanso Curto ({duration} {units})",
         "LongRestNormal": "Descanso Longo ({duration} {units})"
-      }
+      },
+      "AlternateShortRestResult": "{name} faz um descanso curto e recupera {health} Pontos de Vida."
     },
     "Dialogs": {
       "SaveProfile": {
@@ -390,6 +391,10 @@
           "Hint": "Ativar isso criará uma nota do Simple Calendar para cada descanso longo/curto dos jogadores. O conteúdo de cada nota será idêntico à mensagem de chat enviada no fim do descanso.",
           "Hint2": "Nota: Jogadores devem possuir as permissões \"Criar Diário\" e \"Adicionar Notas\" habilitadas no Simple Calendar se descansarem enquanto estiverem online."
         },
+        "SimpleCalendarNotesOnlyPrompted": {
+          "Title": "Habilitar Notas Apenas em Descansos Solicitados",
+          "Hint": "Ativar isso irá criar uma nota do Simple Calendar apenas quando o descanso for solicitado pelo MJ."
+        },
         "HDRecoveryFraction": {
           "Title": "Fração de Recuperação do Dado de Vida",
           "Hint": "A fração de um dado de vida que será realmente recuperada como pontos de vida cada vez que um dado de vida for rolado."
@@ -497,6 +502,10 @@
         "SongOfRestMultiuse": {
           "Title": "Canção do Descanso em Cada Dado de Vida",
           "Hint": "Ativar isso permitirá que Canção do Descanso role e adicione um bônus a cada dado de vida rolado durante um descanso, em vez de apenas ao primeiro."
+        },
+        "HitPointsRecoveryFraction": {
+          "Title": "Fração de Recuperação de Pontos de Vida",
+          "Hint": "A fração de pontos de vida para recuperar em um descanso curto (em adição à rolagem de dados de vida)."
         }
       },
       "LongRest": {
